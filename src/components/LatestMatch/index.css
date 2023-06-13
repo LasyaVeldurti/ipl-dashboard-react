@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.latest-match-banner {
+  background-color: #0f172a;
+  display: flex;
+  margin-top: 20px;
+  color: #ffffff;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 36px;
+  width: 100%;
+}
+.team-container {
+  display: flex;
+  width: 60%;
+}
+.team-details {
+  text-align: left;
+}
+.team-banner-img {
+  width: 150px;
+  height: 150px;
+}
+.result {
+  text-align: right;
+}
+.title {
+  font-size: 24px;
+  width: 30%;
+}
+@media (max-width: 767px) {
+  .latest-match-banner {
+    flex-direction: column;
+  }
+  .result {
+    text-align: left;
+    border-top: 1px solid #475569;
+  }
+}

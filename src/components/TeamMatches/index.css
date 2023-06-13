@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+.latest-matches {
+  align-self: flex-start;
+  font-size: 20px;
+}
+.banner-img {
+  width: 100%;
+  height: 400px;
+  margin: 20px;
+}
+.ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
